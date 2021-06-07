@@ -9,14 +9,14 @@
 
 #location to read the data configuration from
 # see the technical release notes for the location of this file for each release
-#data-config: 
+data-config: mrtarget.data.21.04.yml
 
 #location to read the elasticsearch configuration from
 # see the technical release notes for the location of this file for each release
-#es-config: 
+es-config: mrtarget.es.yml
 
 #python logging file location
-#log-config: mrtarget/resources/logging.ini
+log-config: mrtarget/resources/logging.ini
 
 
 #elasticsearch data prefix
@@ -33,43 +33,43 @@
 #qc-in:
 
 #only run the qc for each stage, don't change the data
-#qc-only: false
+qc-only: false
 
 #skip running the qc
-#skip-qc: false
+skip-qc: false
 
 #location of the elasticsearch nodes
 #multiple values can be specified as a list for use with a cluster
-#elasticseach-nodes: ["localhost:9200"]
+elasticseach-nodes: ["localhost:9200"]
 
 #number of processess to use for validating evidence
-#val-workers-validator: 4
+val-workers-validator: 4
 #number of processess to use for writing evidence
-#val-workers-writer: 4
+val-workers-writer: 4
 #size of queue between validators and writers
-#val-queue-validator-writer: 1000
+val-queue-validator-writer: 1000
 
 #number of processess to use for producing association pairs
-#as-workers-production: 4
+as-workers-production: 4
 #number of processess to use for scoring assocation pairs
-#as-workers-score: 4
+as-workers-score: 4
 #size of queue between producers and scorers
-#as-queue-production-score: 1000
+as-queue-production-score: 1000
 
 #number of processess to use for producing relationship pairs
-#ddr-workers-production: 4
+ddr-workers-production: 4
 #number of processess to use for scoring relationship pairs
-#ddr-workers-score: 4
+ddr-workers-score: 4
 #number of threads to use for writing to elasticsearch
-#ddr-workers-write: 8
+ddr-workers-write: 8
 #size of queue between producers and scorers
-#ddr-queue-production-score: 1000
+ddr-queue-production-score: 1000
 #size of queue between scorers and result
-#ddr-queue-score-result: 1000
+ddr-queue-score-result: 1000
 #size of queue to writers
 #note this is in number of chunks of 1000 documents
-#ddr-queue-write: 8
+ddr-queue-write: 8
 
 
 #path to read gene plugins from
-#gen-plugin-places: [mrtarget/plugins/gene]
+gen-plugin-places: [mrtarget/plugins/gene]

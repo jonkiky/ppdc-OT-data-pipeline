@@ -11,11 +11,11 @@ def setup_ops_parser():
 
     # read config file for other argument values
     p.add('--ops-config', is_config_file=True,
-        env_var="OPS_CONFIG", help='path to ops config file')
+        env_var="OPS_CONFIG", help='path to ops config file',default="mrtarget.ops.yml")
 
     # configuration file with data related settings
     p.add('--data-config', help='path to data config file (YAML)',
-        env_var="DATA_CONFIG", action='store')
+        env_var="DATA_CONFIG", action='store',default="mrtarget.data.21.04.yml")
 
     # configuration file with es related settings
     p.add('--es-config', help='path to elasticsearch config file (YAML)',

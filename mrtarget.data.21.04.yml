@@ -1,0 +1,244 @@
+adverse-events:
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/adverse-events-2021-01-05.csv.gz
+biomarker: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/cancerbiomarkers-2018-05-01.tsv
+chembl-component:
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/annotation-files/chembl_target_component_rest_api-2020-06-01.json.gz
+chembl-indication:
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/annotation-files/chembl_drug_indication_rest_api-2020-06-01.json.gz
+chembl-mechanism:
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/annotation-files/chembl_mechanism_rest_api-2020-06-01.json.gz
+chembl-molecule:
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/annotation-files/chembl_molecule_rest_api-2020-06-01.json.gz
+chembl-protein:
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/annotation-files/chembl_protein_class_rest_api-2020-06-01.json.gz
+chembl-target:
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/annotation-files/chembl_target_rest_api-2020-06-01.json.gz
+chemical-probes-1: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/chemicalprobes_portalprobes-2021-04-16.tsv
+chemical-probes-2: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/chemicalprobes_probeminer-2021-02-09.tsv
+datasources_to_datatypes:
+  cancer_gene_census: somatic_mutation
+  chembl: known_drug
+  clingen: genetic_association
+  crispr: affected_pathway
+  europepmc: literature
+  eva: genetic_association
+  eva_somatic: somatic_mutation
+  expression_atlas: rna_expression
+  gene2phenotype: genetic_association
+  genomics_england: genetic_association
+  gwas_catalog: genetic_association
+  intogen: somatic_mutation
+  ot_genetics_portal: genetic_association
+  phenodigm: animal_model
+  phewas_catalog: genetic_association
+  postgap: genetic_association
+  progeny: affected_pathway
+  reactome: affected_pathway
+  slapenrich: affected_pathway
+  sysbio: affected_pathway
+  uniprot_literature: genetic_association
+  uniprot_somatic: somatic_mutation
+ddr:
+  evidence-count: 3
+  score-threshold: 0.1
+disease-phenotype:
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/ibd_2_pheno_associations-2021-04-16.owl
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/immune_disease_2_pheno-2021-04-16.owl
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/rareAlbuminuria_associations-2021-04-16.owl
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/rareIBDpheno-2021-04-16.owl
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/ordo_hpo_mappings-2021-04-16.owl
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/charite_HP_ORDO-2021-04-16.owl
+drugbank:
+- https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/drugbank-2020-06-01.csv.gz
+eco-scores: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/eco_scores-2021-04-16.tsv
+ensembl-filename: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/homo_sapiens_core_103_38_genes.json.gz
+excluded-biotypes:
+  expression_atlas:
+  - IG_C_pseudogene
+  - IG_J_pseudogene
+  - IG_pseudogene
+  - IG_V_pseudogene
+  - polymorphic_pseudogene
+  - processed_pseudogene
+  - pseudogene
+  - rRNA
+  - rRNA_pseudogene
+  - snoRNA
+  - snRNA
+  - transcribed_processed_pseudogene
+  - transcribed_unitary_pseudogene
+  - transcribed_unprocessed_pseudogene
+  - TR_J_pseudogene
+  - TR_V_pseudogene
+  - unitary_pseudogene
+  - unprocessed_pseudogene
+experimental-toxicity: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/experimental-toxicity-2020-04-07.tsv
+gene-data-plugin-names:
+- HGNC
+- Orthologs
+- Ensembl
+- Uniprot
+- ChEMBL
+- MousePhenotypes
+- Hallmarks
+- CancerBiomarkers
+- ChemicalProbes
+- Tractability
+- Safety
+hallmark: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/cosmic-hallmarks-2021-02-10.tsv.gz
+hgnc-complete-set: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/hgnc_complete_set-2021-04-16.json
+hgnc-orthologs: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/human_all_hcop_sixteen_column-2021-04-16.txt.gz
+hgnc-orthologs-species:
+- 9606-human
+- 9598-chimpanzee
+- 9544-macaque
+- 10090-mouse
+- 10116-rat
+- 9615-dog
+- 9823-pig
+- 8364-frog
+- 7955-zebrafish
+- 7227-fly
+- 6239-worm
+- 4932-yeast
+hpa-normal-tissue: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/normal_tissue-2021-04-16.tsv
+hpa-rna-level: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/baseline_expression_binned-2020-05-07.tsv
+hpa-rna-value: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/baseline_expression_counts-2020-05-07.tsv
+hpa-rna-zscore: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/baseline_expression_zscore_binned-2020-05-07.tsv
+input-file:
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/clingen-2021-01-18.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/crispr-2020-11-18.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/cosmic-2020-08-12.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/genetics-portal-evidences-2020-05-29.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/atlas-2020-09-01.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/eva-2021-01-22.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/gene2phenotype-2021-01-22.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/genomics_england-2020-11-19.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/intogen-2020-02-21.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/phenodigm-2021-01-11.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/phewas_catalog-2020-11-11.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/progeny-2018-07-23.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/slapenrich-2018-11-29.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files/sysbio-2019-01-31.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00000-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00001-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00002-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00003-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00004-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00005-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00006-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00007-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00008-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00009-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00010-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00011-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00012-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00013-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00014-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00015-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00016-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00017-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00018-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00019-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00020-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00021-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00022-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/chembl_dataset/part-00023-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00000-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00001-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00002-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00003-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00004-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00005-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00006-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00007-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00008-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00009-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00010-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00011-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00012-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00013-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00014-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00015-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00016-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00017-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00018-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00019-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00020-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00021-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00022-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/epmc_dataset/part-00023-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00000-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00001-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00002-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00003-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00004-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00005-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00006-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00007-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00008-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00009-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00010-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00011-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00012-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00013-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00014-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00015-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00016-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00017-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00018-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00019-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00020-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00021-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00022-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/reactome_dataset/part-00023-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00000-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00001-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00002-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00003-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00004-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00005-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00006-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00007-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00008-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00009-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00010-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00011-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00012-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00013-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00014-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00015-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00016-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00017-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00018-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00019-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00020-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00021-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00022-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+- https://storage.googleapis.com/open-targets-data-releases/21.02/input/evidence-files-fixed/uniprot_literature_dataset/part-00023-2b3a47a8-73ef-4283-90bc-af76c4c54269.c000.json.gz
+is_direct_do_not_propagate:
+- expression_atlas
+mouse-phenotypes-orthology: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/HMD_HumanPhenotype-2021-04-16.rpt
+mouse-phenotypes-report: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/MGI_PhenoGenoMP-2021-04-16.rpt
+ontology-eco: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/ontology-eco-2021-04-16.owl
+ontology-efo: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/efo_otar_slim.owl
+ontology-hpo: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/hp.owl
+ontology-mp: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/ontology-mp-2021-04-16.owl
+ontology-so: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ontology/ontology-so-2021-04-16.owl
+reactome-pathway-data: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ReactomePathways-2021-04-16.txt
+reactome-pathway-relation: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/ReactomePathwaysRelation-2021-04-16.txt
+safety: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/known_target_safety-2021-04-16.json
+schema: https://raw.githubusercontent.com/opentargets/json_schema/1.7.5/opentargets.json
+scoring_weights:
+  crisp: 1
+  europepmc: 0.2
+  expression_atlas: 0.2
+  phenodigm: 0.2
+  progeny: 0.5
+  slapenrich: 0.5
+  sysbio: 0.5
+tep: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/tep-2021-04-16.json
+tissue-curation-map: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/expression_hierarchy_curation-2021-04-16.tsv
+tissue-translation-map: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/map_with_efos-2021-04-16.json
+tractability: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/tractability_buckets-2021-03-08.tsv
+uniprot-uri: https://storage.googleapis.com/open-targets-data-releases/21.04/input/annotation-files/uniprot-2021-04-16.xml.gz
