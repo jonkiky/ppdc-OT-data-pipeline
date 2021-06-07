@@ -48,6 +48,7 @@ services:
     image: mrtarget:latest
     build:
       context: ./
+      shm_size: '2gb'
     depends_on:
       - elasticsearch
     environment:
