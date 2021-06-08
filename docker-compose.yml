@@ -55,6 +55,7 @@ services:
       - ELASTICSEARCH_NODES=http://elasticsearch:9200
     tmpfs:
       - /tmp
+      - /tmp:size=30G
     volumes:
       - ./log:/usr/src/app/log
       - ./json:/usr/src/app/json
