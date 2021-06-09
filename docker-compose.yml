@@ -12,7 +12,7 @@ services:
       #ensure we do bootstrap tests
       #- es.enforce.bootstrap.checks=true
       #disable memory swapping to disk for performance
-      - bootstrap.memory_lock=true
+      - bootstrap.memory_lock=false
       #allow downloading from google buckets
       - repositories.url.allowed_urls=https://storage.googleapis.com/*,https://*.amazonaws.com/*
       # increase write queue size for bulk tasks
@@ -48,14 +48,14 @@ services:
     image: mrtarget:latest
     build:
       context: ./
-      shm_size: '2gb'
+    shm_size: '4gb'
     depends_on:
       - elasticsearch
     environment:
       - ELASTICSEARCH_NODES=http://elasticsearch:9200
     tmpfs:
       - /tmp
-      - /tmp:size=30G
+      - /tmp:size=40G
     volumes:
       - ./log:/usr/src/app/log
       - ./json:/usr/src/app/json
